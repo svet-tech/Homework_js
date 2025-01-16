@@ -31,7 +31,7 @@ do {
 
     i++
 }
-while (i <= 10)
+while (i < 10)
 
 console.log('Положительных чисел: ' + +positiveNum)
 console.log('Отрицательных чисел: ' + +negativeNum)
