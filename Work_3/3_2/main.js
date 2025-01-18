@@ -1,9 +1,10 @@
 let userInput = +prompt('Введите число: ')
 let userInput2 = +prompt('Введите второе число: ')
-if (userInput > userInput2) {
-    console.log(userInput - userInput2)
+while (userInput > 0 && userInput2 > 0)
+if (userInput >= userInput2) {
+   userInput = userInput - userInput2
 }
-else if (userInput < userInput2) {
-    console.log(userInput2 - userInput)
+else {
+    userInput2 = userInput2 - userInput
 }
-else console.log(userInput)
+console.log(Math.max(userInput, userInput2))
